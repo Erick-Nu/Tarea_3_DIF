@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroStation | Nosotros</title>
+    <link rel="stylesheet" href="./styles in css/stylesContactanos.css">
+    <link rel="stylesheet" href="./styles in css/styles-h&f.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"> 
+                <img src="./img/logo_empresa.png" alt="logo_empresa">
+                <a href="index.html">Electro<span class="highlight">Station</span></a>
+                <img src="./img/extra_logo.png">
+            </div>
+            <ul class="nav-links">
+                <li><a href="/nosotros.html">NOSOTROS</a></li>
+                <li><a href="/servicios.html">SERVICIOS</a></li>
+                <li><a href="/contactanos.html">CONTÁCTANOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contact-container">
+        <div class="additional-info">
+            <h2>Información Adicional</h2>
+            <label for="atencion_cliente">Atención al Cliente:</label>
+            <input type="text" id="atencion_cliente" name="atencion_cliente" value="Llámanos al 123-456-7890" readonly>
+            <label for="telefonos">Teléfonos:</label>
+            <input type="text" id="telefonos" name="telefonos" value="123-456-7890" readonly>
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escriba sus comentarios aquí..."></textarea>
+        </div>
+
+        <form class="contact-form">
+            <h2>Contacto</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+            <button type="submit">Enviar</button>
+            <button type="button" onclick="window.location.href='index.html'">Cancelar</button>
+        </form>
+        <div class="additional-info">
+            <h2>Lista de Carros Eléctricos</h2>
+                <div class="additional-infotwo">
+                    <ul>
+                        <li>Tesla Model S</li>
+                        <li>Nissan Leaf</li>
+                        <li>Chevrolet Bolt EV</li>
+                        <li>BMW i3</li>
+                        <li>Hyundai Kona Electric</li>
+                        <li>Jaguar I-PACE</li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>Copyright © 2024 ElectroStation. Todos los derechos reservados.</p>
+            <div class="social-media">
+                <span>Visita nuestra redes:</span>
+                <a href="#"><img src="./img/icon_facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="./img/icon_instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="./img/icon_twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
